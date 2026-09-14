@@ -1,0 +1,6 @@
+work_id,state,district,constituency" in content:
+-                # Extract starting from work_id
+-                start_idx = content.find("work_id,state,district,constituency")
+-                csv_content = content[start_idx:].strip()
+-                # If there are closing XML tags, strip them
+-                if "

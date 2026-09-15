@@ -6,6 +6,7 @@ const nextConfig = {
   // and the api.ts client will route calls there automatically.
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
+  output: 'standalone',
 };
 
 module.exports = nextConfig;
